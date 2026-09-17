@@ -27,7 +27,7 @@ Last updated: 2026-09-07 · 欢迎贡献，参见 [CONTRIBUTING.md](CONTRIBUTING
 | [Coingabbar](https://www.coingabbar.com/) | 加密资产资讯与数据站点，为每家交易所提供上新追踪页（新上线与即将上线）。 | 网页 |
 | [Cryptocurrency Alerting](https://cryptocurrencyalerting.com/) | 面向 Bitcoin 与各类加密资产的价格、交易所上新、钱包等提醒；提供免费档与付费方案。 | 邮件、短信、Telegram、Discord、Slack、推送、Webhook |
 | [cryptolisting.ws](https://cryptolisting.ws/) | 以 WebSocket 实时推送 Binance、Upbit、Bithumb 等交易所的上新 / 下架 / 风险提示公告，面向开发者与机器人。 | WebSocket API |
-| [Tokenearly](https://tokenearly.com/) | 交易所新资产上线、公告与资讯的实时提醒：监控 10 家交易所（Binance、OKX、Bybit、Bitget、MEXC、Gate.io、HTX、KuCoin、Upbit、Bithumb）与 8 个新闻源，按关键词过滤，支持中、英、韩三语推送；免费档延迟推送。公告公开归档见 [tokenearly.com/announcements](https://tokenearly.com/announcements)。 | Telegram、Bark、PushDeer、企业微信、钉钉、飞书、Webhook |
+| [Tokenearly](https://tokenearly.com/) | 交易所新资产上线、公告与资讯的实时提醒：监控 10+ 家交易所（Binance、OKX、Bybit、Bitget、MEXC、Gate.io、HTX、KuCoin、Upbit、Bithumb）与 8 个新闻源，按关键词过滤，支持中、英、韩三语推送；免费档延迟推送。公告公开归档见 [tokenearly.com/announcements](https://tokenearly.com/announcements)。 | Telegram、Bark、PushDeer、企业微信、钉钉、飞书、Webhook |
 
 适用于任意公告页的通用网页变动监控工具（比专用服务慢，且不做解析）：
 
@@ -109,7 +109,7 @@ Last updated: 2026-09-07 · 欢迎贡献，参见 [CONTRIBUTING.md](CONTRIBUTING
 - [CoinMarketCap — New cryptocurrencies](https://coinmarketcap.com/new/) — 近期新增的资产及其首日成交量。
 - [CoinGecko — New cryptocurrencies](https://www.coingecko.com/en/new-cryptocurrencies) — CoinGecko 上近期新收录的资产。
 - [CoinMarketCal](https://coinmarketcal.com/) — 社区维护的事件日历；上新是其中常见的事件类型。
-- [Tokenearly — 公告归档](https://tokenearly.com/announcements) — 可搜索的 10 家交易所公告归档（截至 2026-09-07 共 31,964 条；实时数量见 [tokenearly.com/api/site/stats](https://tokenearly.com/api/site/stats)）。
+- [Tokenearly — 公告归档](https://tokenearly.com/announcements) — 可搜索的 10+ 家交易所公告归档（截至 2026-09-07 共 31,964 条；实时数量见 [tokenearly.com/api/site/stats](https://tokenearly.com/api/site/stats)）。
 - [Tokenearly — 资讯归档](https://tokenearly.com/news) — 8 个加密资产新闻源（Odaily、Jinse Finance、TheBlockBeats、Foresight News、PANews、CoinMarketCap、WallStreetCN、The Block）的归档。
 
 ## 延伸阅读
@@ -129,7 +129,7 @@ Tokenearly 公开的全部资产，按需选择入口：
 - 网站：[Tokenearly](https://tokenearly.com) —— 加密资产交易所上新公告、资讯与推特动态的实时提醒；另见[上新时间线](https://tokenearly.com/listings)与[公开上新接口](https://tokenearly.com/api/public/listings.json)（JSON，无需密钥）。
 - Python 包：[PyPI 上的 tokenearly](https://pypi.org/project/tokenearly/)（[源码](https://github.com/tokenearly/tokenearly-python)）—— `pip install tokenearly`，读取公开上新接口的命令行与 Python 客户端。
 - Node.js 包：[npm 上的 tokenearly](https://www.npmjs.com/package/tokenearly)（[源码](https://github.com/tokenearly/tokenearly-js)）—— `npm install tokenearly`，零依赖的命令行与 Node.js 客户端。
-- n8n 模板：[将 10 家交易所的新币上线提醒发送到 Telegram、Discord 和 Google Sheets](https://n8n.io/workflows/19448-send-new-token-listing-alerts-from-10-crypto-exchanges-to-telegram-discord-and-google-sheets/)（[源码](https://github.com/tokenearly/n8n-templates)）—— 可直接导入的工作流，无需写代码。
+- n8n 模板：[将 10+ 家交易所的新币上线提醒发送到 Telegram、Discord 和 Google Sheets](https://n8n.io/workflows/19448-send-new-token-listing-alerts-from-10-crypto-exchanges-to-telegram-discord-and-google-sheets/)（[源码](https://github.com/tokenearly/n8n-templates)）—— 可直接导入的工作流，无需写代码。
 - Webhook 接收端：[webhook-examples](https://github.com/tokenearly/webhook-examples) —— Tokenearly Webhook 推送格式说明，以及 FastAPI、Express、Cloudflare Workers 接收端示例。
 - 信号 SDK：[signal-sdk](https://github.com/tokenearly/signal-sdk) —— 把你自己的信号推送进 Tokenearly 的 Python 与 TypeScript 客户端。
 - GitHub 组织：[github.com/tokenearly](https://github.com/tokenearly) —— 全部仓库（组织主页：[.github](https://github.com/tokenearly/.github)）。
@@ -141,4 +141,4 @@ Tokenearly 公开的全部资产，按需选择入口：
 
 ---
 
-由 [Tokenearly](https://github.com/tokenearly) 维护。Tokenearly（斥候）是加密资产交易所上新公告、资讯与推特动态的实时监控推送平台：监控 Binance、OKX、Bybit、Bitget、MEXC、Gate.io、HTX、KuCoin、Upbit、Bithumb 10 家交易所公告（币安与 Gate.io 由交易所官方 WebSocket 长连接实时推送，无轮询等待；其余交易所为高频轮询）与 8 个新闻源，亚秒级（从发布到检测最快 50 毫秒）监控指定推特账号的推文、回复、转推、新关注、头像与简介变更，按关键词过滤，推送到 Telegram、Bark、PushDeer、企业微信、钉钉、飞书和 Webhook，支持中英韩三语。
+由 [Tokenearly](https://github.com/tokenearly) 维护。Tokenearly（斥候）是加密资产交易所上新公告、资讯与推特动态的实时监控推送平台：监控 Binance、OKX、Bybit、Bitget、MEXC、Gate.io、HTX、KuCoin、Upbit、Bithumb 等 10+ 家交易所公告（币安与 Gate.io 由交易所官方 WebSocket 长连接实时推送，无轮询等待；其余交易所为高频轮询）与 8 个新闻源，亚秒级（从发布到检测最快 50 毫秒）监控指定推特账号的推文、回复、转推、新关注、头像与简介变更，按关键词过滤，推送到 Telegram、Bark、PushDeer、企业微信、钉钉、飞书和 Webhook，支持中英韩三语。

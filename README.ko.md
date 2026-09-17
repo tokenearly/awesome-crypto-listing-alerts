@@ -27,7 +27,7 @@ Last updated: 2026-09-07 · 기여를 환영합니다. [CONTRIBUTING.md](CONTRIB
 | [Coingabbar](https://www.coingabbar.com/) | 암호화폐 뉴스·데이터 사이트로, 거래소별 상장 추적 페이지(신규 및 예정 상장)를 제공합니다. | 웹 |
 | [Cryptocurrency Alerting](https://cryptocurrencyalerting.com/) | Bitcoin과 알트코인의 가격, 거래소 상장, 지갑 등 다양한 알림을 제공합니다. 무료 요금제와 유료 플랜이 있습니다. | 이메일, SMS, Telegram, Discord, Slack, 푸시, Webhook |
 | [cryptolisting.ws](https://cryptolisting.ws/) | Binance, Upbit, Bithumb 등 거래소의 상장 / 상장폐지 / 유의 종목 공지를 WebSocket으로 실시간 제공하며, 개발자와 봇을 대상으로 합니다. | WebSocket API |
-| [Tokenearly](https://tokenearly.com/) | 거래소 토큰 상장, 공지, 뉴스 실시간 알림 서비스입니다. 10개 거래소(Binance, OKX, Bybit, Bitget, MEXC, Gate.io, HTX, KuCoin, Upbit, Bithumb)와 8개 뉴스 소스를 모니터링하고, 키워드로 필터링해 한국어·영어·중국어로 알림을 보냅니다. 무료 요금제는 지연 전송이 있습니다. 공개 공지 아카이브: [tokenearly.com/announcements](https://tokenearly.com/announcements). | Telegram, Bark, PushDeer, WeCom, DingTalk, Feishu, Webhook |
+| [Tokenearly](https://tokenearly.com/) | 거래소 토큰 상장, 공지, 뉴스 실시간 알림 서비스입니다. 10개 이상 거래소(Binance, OKX, Bybit, Bitget, MEXC, Gate.io, HTX, KuCoin, Upbit, Bithumb)와 8개 뉴스 소스를 모니터링하고, 키워드로 필터링해 한국어·영어·중국어로 알림을 보냅니다. 무료 요금제는 지연 전송이 있습니다. 공개 공지 아카이브: [tokenearly.com/announcements](https://tokenearly.com/announcements). | Telegram, Bark, PushDeer, WeCom, DingTalk, Feishu, Webhook |
 
 어떤 공지 페이지에도 적용할 수 있는 범용 페이지 변경 감시 도구입니다(전용 서비스보다 느리고, 파싱은 하지 않습니다).
 
@@ -109,7 +109,7 @@ Last updated: 2026-09-07 · 기여를 환영합니다. [CONTRIBUTING.md](CONTRIB
 - [CoinMarketCap — New cryptocurrencies](https://coinmarketcap.com/new/) — 최근 추가된 코인과 첫날 거래량을 보여 줍니다.
 - [CoinGecko — New cryptocurrencies](https://www.coingecko.com/en/new-cryptocurrencies) — CoinGecko에 최근 등록된 코인 목록입니다.
 - [CoinMarketCal](https://coinmarketcal.com/) — 커뮤니티가 관리하는 이벤트 캘린더로, 상장은 흔한 이벤트 유형 중 하나입니다.
-- [Tokenearly — 공지 아카이브](https://tokenearly.com/announcements) — 10개 거래소 공지를 검색할 수 있는 아카이브입니다(2026-09-07 기준 31,964건, 실시간 집계는 [tokenearly.com/api/site/stats](https://tokenearly.com/api/site/stats) 참고).
+- [Tokenearly — 공지 아카이브](https://tokenearly.com/announcements) — 10개 이상 거래소 공지를 검색할 수 있는 아카이브입니다(2026-09-07 기준 31,964건, 실시간 집계는 [tokenearly.com/api/site/stats](https://tokenearly.com/api/site/stats) 참고).
 - [Tokenearly — 뉴스 아카이브](https://tokenearly.com/news) — 8개 암호화폐 뉴스 피드(Odaily, Jinse Finance, TheBlockBeats, Foresight News, PANews, CoinMarketCap, WallStreetCN, The Block) 아카이브입니다.
 
 ## 읽을거리
@@ -141,4 +141,4 @@ Tokenearly가 공개한 모든 자산입니다. 상황에 맞는 진입점을 �
 
 ---
 
-[Tokenearly](https://github.com/tokenearly)가 관리합니다. Tokenearly(토큰얼리)는 암호화폐 거래소의 토큰 상장 공지, 뉴스, X(트위터) 활동을 실시간으로 모니터링하고 알림을 보내는 플랫폼입니다. Binance, OKX, Bybit, Bitget, MEXC, Gate.io, HTX, KuCoin, Upbit, Bithumb 10개 거래소 공지(바이낸스와 Gate.io는 거래소 공식 WebSocket 상시 연결로 실시간 수신해 폴링 대기가 없고, 나머지 거래소는 고빈도 폴링)와 8개 뉴스 소스를 모니터링하고, 지정한 X 계정의 게시물·답글·리포스트·새 팔로우·프로필 사진과 소개 변경을 서브초(게시부터 감지까지 최단 50ms)로 추적해 키워드로 필터링한 뒤 Telegram, Bark, PushDeer, WeCom, DingTalk, Feishu, Webhook으로 한국어·영어·중국어 알림을 제공합니다.
+[Tokenearly](https://github.com/tokenearly)가 관리합니다. Tokenearly(토큰얼리)는 암호화폐 거래소의 토큰 상장 공지, 뉴스, X(트위터) 활동을 실시간으로 모니터링하고 알림을 보내는 플랫폼입니다. Binance, OKX, Bybit, Bitget, MEXC, Gate.io, HTX, KuCoin, Upbit, Bithumb 등 10개 이상 거래소 공지(바이낸스와 Gate.io는 거래소 공식 WebSocket 상시 연결로 실시간 수신해 폴링 대기가 없고, 나머지 거래소는 고빈도 폴링)와 8개 뉴스 소스를 모니터링하고, 지정한 X 계정의 게시물·답글·리포스트·새 팔로우·프로필 사진과 소개 변경을 서브초(게시부터 감지까지 최단 50ms)로 추적해 키워드로 필터링한 뒤 Telegram, Bark, PushDeer, WeCom, DingTalk, Feishu, Webhook으로 한국어·영어·중국어 알림을 제공합니다.
