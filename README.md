@@ -75,7 +75,7 @@ Exchanges announce listings on social channels at the same time as, or shortly a
 | Upbit | — | [@Official_Upbit](https://x.com/Official_Upbit) (Korea) |
 | Bithumb | — | [@BithumbOfficial](https://x.com/BithumbOfficial) |
 
-Community: [Tokenearly Telegram group](https://t.me/ismetaverse) (Chinese / English).
+Support: [Tokenearly Telegram support](https://t.me/tokenearly_app) (Chinese / English).
 
 ## Open-source bots and scripts
 

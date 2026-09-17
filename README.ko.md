@@ -73,7 +73,7 @@ Last updated: 2026-09-07 · 기여를 환영합니다. [CONTRIBUTING.md](CONTRIB
 | Upbit | — | [@Official_Upbit](https://x.com/Official_Upbit)(한국) |
 | Bithumb | — | [@BithumbOfficial](https://x.com/BithumbOfficial) |
 
-커뮤니티: [Tokenearly Telegram 그룹](https://t.me/ismetaverse)(중국어 / 영어).
+고객지원: [Tokenearly Telegram 고객지원](https://t.me/tokenearly_app)(중국어 / 영어).
 
 ## 오픈소스 봇과 스크립트
 

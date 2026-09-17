@@ -73,7 +73,7 @@ Last updated: 2026-09-07 · 欢迎贡献，参见 [CONTRIBUTING.md](CONTRIBUTING
 | Upbit | — | [@Official_Upbit](https://x.com/Official_Upbit)（韩国） |
 | Bithumb | — | [@BithumbOfficial](https://x.com/BithumbOfficial) |
 
-社区：[Tokenearly Telegram 群组](https://t.me/ismetaverse)（中文 / 英文）。
+客服：[Tokenearly Telegram 客服](https://t.me/tokenearly_app)（中文 / 英文）。
 
 ## 开源机器人与脚本
 
