@@ -14,6 +14,7 @@ Last updated: 2026-09-07 · 기여를 환영합니다. [CONTRIBUTING.md](CONTRIB
 - [오픈소스 봇과 스크립트](#오픈소스-봇과-스크립트)
 - [데이터와 연구](#데이터와-연구)
 - [읽을거리](#읽을거리)
+- [관련 프로젝트](#관련-프로젝트)
 
 ## 거래소 상장 알림 서비스
 
@@ -120,6 +121,19 @@ Last updated: 2026-09-07 · 기여를 환영합니다. [CONTRIBUTING.md](CONTRIB
 - [Research Report on the Listing Effect of Exchanges in 2024](https://www.chaincatcher.com/en/article/2175717) — ChainCatcher(2024)가 거래소별 상장 후 성과를 비교한 보고서입니다.
 - [Crypto Exchange Coin Listing & Delisting Alert Bot (Free n8n Template)](https://www.coingecko.com/learn/crypto-exchange-coin-listing-alert-bot-free-n8n-template) — CoinGecko 튜토리얼: n8n과 CoinGecko API로 상장 / 상장폐지 알림 봇을 만드는 방법입니다.
 - [Crypto New Coin Alerts: How to Monitor Exchange Listings on Binance and Coinbase](https://pagecrawl.io/blog/crypto-new-coin-listing-alerts-binance) — 페이지 모니터링 기반 상장 알림에 관한 PageCrawl 가이드입니다.
+
+## 관련 프로젝트
+
+Tokenearly가 공개한 모든 자산입니다. 상황에 맞는 진입점을 고르십시오:
+
+- 웹사이트: [Tokenearly](https://tokenearly.com) — 암호화폐 거래소 토큰 상장 공지, 뉴스, X 활동 실시간 알림. [상장 타임라인](https://tokenearly.com/listings)과 [공개 상장 피드](https://tokenearly.com/api/public/listings.json)(JSON, 키 불필요)도 참고하십시오.
+- Python 패키지: [PyPI의 tokenearly](https://pypi.org/project/tokenearly/)([소스](https://github.com/tokenearly/tokenearly-python)) — `pip install tokenearly`, 공개 상장 피드를 읽는 명령줄 도구와 Python 클라이언트.
+- Node.js 패키지: [npm의 tokenearly](https://www.npmjs.com/package/tokenearly)([소스](https://github.com/tokenearly/tokenearly-js)) — `npm install tokenearly`, 의존성 없는 명령줄 도구와 Node.js 클라이언트.
+- n8n 템플릿: [10개 암호화폐 거래소의 신규 토큰 상장 알림을 Telegram, Discord, Google Sheets로 보내기](https://n8n.io/workflows/19448-send-new-token-listing-alerts-from-10-crypto-exchanges-to-telegram-discord-and-google-sheets/)([소스](https://github.com/tokenearly/n8n-templates)) — 코드 없이 바로 가져올 수 있는 워크플로.
+- Webhook 수신 서버: [webhook-examples](https://github.com/tokenearly/webhook-examples) — Tokenearly Webhook 페이로드 명세와 FastAPI, Express, Cloudflare Workers 수신 예제.
+- Signal SDK: [signal-sdk](https://github.com/tokenearly/signal-sdk) — 자체 시그널을 Tokenearly로 보내는 Python 및 TypeScript 클라이언트.
+- GitHub 조직: [github.com/tokenearly](https://github.com/tokenearly) — 모든 저장소(조직 프로필: [.github](https://github.com/tokenearly/.github)).
+- Telegram: 공식 채널 [@tokenearly_channel](https://t.me/tokenearly_channel), 공식 봇 [@tokenearly_bot](https://t.me/tokenearly_bot).
 
 ## 기여하기
 

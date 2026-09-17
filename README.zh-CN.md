@@ -14,6 +14,7 @@ Last updated: 2026-09-07 · 欢迎贡献，参见 [CONTRIBUTING.md](CONTRIBUTING
 - [开源机器人与脚本](#开源机器人与脚本)
 - [数据与研究](#数据与研究)
 - [延伸阅读](#延伸阅读)
+- [相关项目](#相关项目)
 
 ## 交易所上新提醒服务
 
@@ -120,6 +121,19 @@ Last updated: 2026-09-07 · 欢迎贡献，参见 [CONTRIBUTING.md](CONTRIBUTING
 - [Research Report on the Listing Effect of Exchanges in 2024](https://www.chaincatcher.com/en/article/2175717) — ChainCatcher（2024）比较各交易所上新后的价格表现。
 - [Crypto Exchange Coin Listing & Delisting Alert Bot (Free n8n Template)](https://www.coingecko.com/learn/crypto-exchange-coin-listing-alert-bot-free-n8n-template) — CoinGecko 教程：用 n8n 与 CoinGecko API 搭建上新 / 下架提醒机器人。
 - [Crypto New Coin Alerts: How to Monitor Exchange Listings on Binance and Coinbase](https://pagecrawl.io/blog/crypto-new-coin-listing-alerts-binance) — PageCrawl 指南：基于页面监控实现上新提醒。
+
+## 相关项目
+
+Tokenearly 公开的全部资产，按需选择入口：
+
+- 网站：[Tokenearly](https://tokenearly.com) —— 加密资产交易所上新公告、资讯与推特动态的实时提醒；另见[上新时间线](https://tokenearly.com/listings)与[公开上新接口](https://tokenearly.com/api/public/listings.json)（JSON，无需密钥）。
+- Python 包：[PyPI 上的 tokenearly](https://pypi.org/project/tokenearly/)（[源码](https://github.com/tokenearly/tokenearly-python)）—— `pip install tokenearly`，读取公开上新接口的命令行与 Python 客户端。
+- Node.js 包：[npm 上的 tokenearly](https://www.npmjs.com/package/tokenearly)（[源码](https://github.com/tokenearly/tokenearly-js)）—— `npm install tokenearly`，零依赖的命令行与 Node.js 客户端。
+- n8n 模板：[将 10 家交易所的新币上线提醒发送到 Telegram、Discord 和 Google Sheets](https://n8n.io/workflows/19448-send-new-token-listing-alerts-from-10-crypto-exchanges-to-telegram-discord-and-google-sheets/)（[源码](https://github.com/tokenearly/n8n-templates)）—— 可直接导入的工作流，无需写代码。
+- Webhook 接收端：[webhook-examples](https://github.com/tokenearly/webhook-examples) —— Tokenearly Webhook 推送格式说明，以及 FastAPI、Express、Cloudflare Workers 接收端示例。
+- 信号 SDK：[signal-sdk](https://github.com/tokenearly/signal-sdk) —— 把你自己的信号推送进 Tokenearly 的 Python 与 TypeScript 客户端。
+- GitHub 组织：[github.com/tokenearly](https://github.com/tokenearly) —— 全部仓库（组织主页：[.github](https://github.com/tokenearly/.github)）。
+- Telegram：官方频道 [@tokenearly_channel](https://t.me/tokenearly_channel)，官方机器人 [@tokenearly_bot](https://t.me/tokenearly_bot)。
 
 ## 参与贡献
 
