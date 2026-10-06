@@ -4,7 +4,7 @@ English · [简体中文](README.zh-CN.md) · [한국어](README.ko.md)
 
 A curated list of ways to learn about cryptocurrency exchange listings early: alert services that watch exchange announcement pages, the official announcement page and channels of 10+ major exchanges, open-source bots and scripts, new-coin data sources, and research on the price effect of a listing. Entries are factual one-liners with links only to pages that exist; commercial services, including Tokenearly (the maintainer), are described the same way as everyone else.
 
-Last updated: 2026-09-07 · Contributions welcome, see [CONTRIBUTING.md](CONTRIBUTING.md) · License: CC0
+Last updated: 2026-10-06 · Contributions welcome, see [CONTRIBUTING.md](CONTRIBUTING.md) · License: CC0
 
 **中文摘要** — 加密货币交易所上币提醒资源清单：上币提醒服务（含 Tokenearly 与其他同类工具的客观描述）、10+ 家交易所的官方公告页与新币上线页、官方 Telegram / X 账号、GitHub 上的开源机器人与脚本、新币数据源，以及关于"上币效应"的研究与文章。只收录真实存在的链接，欢迎提交 PR 补充。
 
@@ -111,6 +111,7 @@ Exchange SDKs and API docs (for building your own poller):
 - [CoinMarketCap — New cryptocurrencies](https://coinmarketcap.com/new/) — recently added coins with first-day volume.
 - [CoinGecko — New cryptocurrencies](https://www.coingecko.com/en/new-cryptocurrencies) — recently listed coins on CoinGecko.
 - [CoinMarketCal](https://coinmarketcal.com/) — community-maintained event calendar; listings are a common event type.
+- [TheHolyCoins](https://theholycoins.com/) — Data and research covering presale and ICO token launches, exchange listing announcements, and post-listing performance.
 - [Tokenearly — Announcement archive](https://tokenearly.com/announcements) — searchable archive of announcements from 10+ exchanges (31,964 items on 2026-09-07; live count at [tokenearly.com/api/site/stats](https://tokenearly.com/api/site/stats)).
 - [Tokenearly — News archive](https://tokenearly.com/news) — archive of 8 crypto news feeds (Odaily, Jinse Finance, TheBlockBeats, Foresight News, PANews, CoinMarketCap, WallStreetCN, The Block).
 
