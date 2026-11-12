@@ -4,7 +4,7 @@ English · [简体中文](README.zh-CN.md) · [한국어](README.ko.md)
 
 A curated list of ways to learn about cryptocurrency exchange listings early: alert services that watch exchange announcement pages, the official announcement page and channels of 10+ major exchanges, open-source bots and scripts, new-coin data sources, and research on the price effect of a listing. Entries are factual one-liners with links only to pages that exist; commercial services, including Tokenearly (the maintainer), are described the same way as everyone else.
 
-Last updated: 2026-09-07 · Contributions welcome, see [CONTRIBUTING.md](CONTRIBUTING.md) · License: CC0
+Last updated: 2026-11-12 · Contributions welcome, see [CONTRIBUTING.md](CONTRIBUTING.md) · License: CC0
 
 **中文摘要** — 加密货币交易所上币提醒资源清单：上币提醒服务（含 Tokenearly 与其他同类工具的客观描述）、10+ 家交易所的官方公告页与新币上线页、官方 Telegram / X 账号、GitHub 上的开源机器人与脚本、新币数据源，以及关于"上币效应"的研究与文章。只收录真实存在的链接，欢迎提交 PR 补充。
 
@@ -28,7 +28,7 @@ Hosted services that watch exchange announcement pages or APIs and notify you. A
 | [AltNotify](https://altnotify.com/) | Notifies about new coin listings on major exchanges; paid tiers for faster delivery. | Telegram and other channels (see site) |
 | [Coingabbar](https://www.coingabbar.com/) | Crypto news and data site with an exchange-listings tracker page per exchange (new and upcoming listings). | Web |
 | [Cryptocurrency Alerting](https://cryptocurrencyalerting.com/) | Price, exchange-listing, wallet and other alerts for Bitcoin and altcoins; free tier plus paid plans. | Email, SMS, Telegram, Discord, Slack, push, webhook |
-| [cryptolisting.ws](https://cryptolisting.ws/) | Real-time WebSocket feed of listing / delisting / caution announcements from exchanges such as Binance, Upbit and Bithumb, aimed at developers and bots. | WebSocket API |
+| [cryptolisting.ws](https://cryptolisting.ws/) | WebSocket API that pushes listing, delisting, caution-release, Monitoring Tag and airdrop announcements from Binance, Upbit, Bithumb and Robinhood to developers and bots as JSON events, with a free tier (tickers redacted), a delayed tier free for the first month, and paid plans per exchange. | WebSocket API |
 | [Tokenearly](https://tokenearly.com/) | Real-time alerts for exchange token listings, announcements and news: monitors 10+ exchanges (Binance, OKX, Bybit, Bitget, MEXC, Gate.io, HTX, KuCoin, Upbit, Bithumb) and 8 news sources, tracks chosen X accounts at sub-second latency (as fast as 50 ms from post to detection), filters by keyword, delivers in Chinese, English and Korean; free tier with delayed delivery. Public archive of announcements at [tokenearly.com/announcements](https://tokenearly.com/announcements). | Telegram, Bark, PushDeer, WeCom, DingTalk, Feishu, Webhook |
 
 Generic page-change monitors that work on any announcement page (slower than dedicated services, no parsing):
